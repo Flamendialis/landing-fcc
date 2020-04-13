@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: gainsboro;
+}
+.header {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.logo-img {
+  height: 25px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Electrolize", sans-serif;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo a span {
+  padding-left: 5px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  padding-left: 20px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-right: 350px;
+}
+.navbar a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+.hero {
+  overflow: hidden;
+}
+.texthero {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  width: 600px;
+  top: 100px;
+  left: 150px;
+}
+.texthero h2 {
+  font-size: 64px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.texthero p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  max-width: 400px;
+}
+
+#video {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+.product-sectiion-title {
+  align-self: center;
+  font-size: 28px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  max-height: 450px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.product-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-info {
+  padding: 35px 12px;
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  flex-grow: 1;
+}
+.card-info h4 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.card-info p {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  margin-top: 8px;
+}
+.card-info p a {
+  color: black;
+  text-decoration: none;
+}
+.card-info div h3 {
+  font-size: 24px;
+}
+.order-button {
+  background-color: #44c767;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 12px;
+  text-decoration: none;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.order-button:visited {
+  color: #ffffff;
+}
+.manuals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 200px;
+  margin: 150px 0;
+  background: white;
+  max-height: 450px;
+  max-width: 920px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.form-container h4 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.form-container p {
+  margin-bottom: 8px;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 35px;
+}
+input[type="email"],
+input[type="name"] {
+  width: 100%;
+  height: 35px;
+  margin: 12px;
+}
+input[type="submit"] {
+  background-color: #44c767;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+  height: 45px;
+  margin: 12px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #000;
+  color: white;
+  padding: 64px 24px;
+}
+.logo-author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.author {
+  font-size: 10px;
+  margin-top: 0;
+  justify-self: flex-end;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: 35px;
+  align-items: baseline;
+}
+.social img {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+}
+.navbar-footer {
+  display: flex;
+}
+.navbar-footer a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+.resources {
+  font-size: 12px;
+}
+.resources p a {
+  text-decoration: none;
+  color: #44c767;
+}
